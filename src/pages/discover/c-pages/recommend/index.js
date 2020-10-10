@@ -1,5 +1,5 @@
 import React, { memo } from 'react'
-import {RecommendWrapper} from './style'
+import { RecommendWrapper, Content, RecommendLeft, RecommendRight } from './style'
 import TopBanner from './c-cpns/top-banner/index'
 
 function HYRecommend(props) {
@@ -7,6 +7,10 @@ function HYRecommend(props) {
     return (
         <RecommendWrapper>
             <TopBanner></TopBanner>
+            <Content>
+                <RecommendLeft></RecommendLeft>
+                <RecommendRight></RecommendRight>
+            </Content>
         </RecommendWrapper>
     )
 }
