@@ -1,14 +1,17 @@
 import React, { memo } from 'react'
 import { RecommendWrapper, Content, RecommendLeft, RecommendRight } from './style'
 import TopBanner from './c-cpns/top-banner/index'
+import HotRecommend from './c-cpns/hot-recommend/index'
 
 function HYRecommend(props) {
 
     return (
         <RecommendWrapper>
             <TopBanner></TopBanner>
-            <Content>
-                <RecommendLeft></RecommendLeft>
+            <Content className="wrap-v2">
+                <RecommendLeft>
+                  <HotRecommend></HotRecommend>
+                </RecommendLeft>
                 <RecommendRight></RecommendRight>
             </Content>
         </RecommendWrapper>
