@@ -1,7 +1,9 @@
 import React, { memo } from 'react'
 import { RecommendWrapper, Content, RecommendLeft, RecommendRight } from './style'
-import TopBanner from './c-cpns/top-banner/index'
-import HotRecommend from './c-cpns/hot-recommend/index'
+import TopBanner from './c-cpns/top-banner'
+import HotRecommend from './c-cpns/hot-recommend'
+import NewaAlbum from './c-cpns/new-album'
+import RecommendRanking from './c-cpns/recommend-ranking'
 
 function HYRecommend(props) {
 
@@ -11,6 +13,8 @@ function HYRecommend(props) {
             <Content className="wrap-v2">
                 <RecommendLeft>
                   <HotRecommend></HotRecommend>
+                  <NewaAlbum></NewaAlbum>
+                  <RecommendRanking></RecommendRanking>
                 </RecommendLeft>
                 <RecommendRight></RecommendRight>
             </Content>

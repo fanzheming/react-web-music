@@ -31,7 +31,12 @@ const ThemeHeaderRCM = memo(function (props) {
 })
 
 ThemeHeaderRCM.propTypes = {
+    title: PropTypes.string.isRequired,
+    keywords: PropTypes.array
+}
 
+ThemeHeaderRCM.defaultProps = {
+    keywords: []
 }
 
 export default ThemeHeaderRCM
