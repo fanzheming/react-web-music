@@ -8,3 +8,4 @@ export const RankingWrapper = styled.div`
     height: 472px;
   }
 `
+

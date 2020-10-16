@@ -21,7 +21,7 @@ export default memo(function NewAlbum() {
 
     return (
         <AlbumWrapper>
-            <ThemeHeaderRCM title="新碟"></ThemeHeaderRCM>
+            <ThemeHeaderRCM title="新碟上架"></ThemeHeaderRCM>
             <div className="content">
                 <button className="arrow arrow-left sprite_02"
                     onClick={e => pageRef.current.prev()}></button>
