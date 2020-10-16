@@ -3,7 +3,8 @@ import * as actionTypes from './constants';
 import { 
   getTopBanners,
   getHotRecommend,
-  getNewAlbums
+  getNewAlbums,
+  getTopList
 } from '@/services/recommend';
 
 //顶部横幅
