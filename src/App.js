@@ -6,6 +6,7 @@ import React, { memo } from 'react'
 import { withRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './store';
+import AppPlayerBar from './pages/player/app-player-bar';
 
 const App = memo(function () {
     return (
@@ -13,6 +14,7 @@ const App = memo(function () {
             <AppHeader />
             {renderRoutes(routes)}
             <AppFooter />
+            <AppPlayerBar/>
         </Provider>
     )
 })

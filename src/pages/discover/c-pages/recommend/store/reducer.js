@@ -11,6 +11,8 @@ const defaultState = Map({
   originRanking: {},
 })
 
+console.log(defaultState)
+
 function reducer(state = defaultState, action) {
   switch (action.type) {
     case actionTypes.CHANGE_TOP_BANNERS:
